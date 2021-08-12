@@ -1,10 +1,13 @@
 import { React, useState, useEffect } from 'react';
 import Navigation from './Navigation';
+//import Header from './Header';
 import Home from '../pages/Home';
 import Portfolio from '../pages/Portfolio';
 import Blog from '../pages/Blog';
 import Contact from '../pages/Contact';
 import Resume from '../pages/Resume';
+import Header from './Header';
+import Footer from './Footer';
 
 import { Container, Row, Col } from 'react-bootstrap';
 
@@ -39,8 +42,10 @@ export default function PortfolioContainer() {
 
     return (
         <div>
-
             <Container fluid="md" className="p-0">
+                <Row>
+                    <Header />
+                </Row>
                 <Row>
                     <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
                 </Row>
@@ -48,6 +53,7 @@ export default function PortfolioContainer() {
                     <Col>{renderPage()}</Col>
                 </Row>
             </Container>
+            <Footer />
         </div>
     )
 }

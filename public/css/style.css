@@ -1,0 +1,28 @@
+
+:root{
+  --common-header-footer-color:#162e46;
+  --nav-common-background-color:#d8a47f;
+  --card-common-padding:2px;
+}
+
+body {
+  font-family: Arial;
+  margin: 0;
+  padding-bottom: 70px;
+}
+
+header {
+  padding: 17px;
+  text-align: center;
+  background:var(--common-header-footer-color);
+  color: #fff;
+}
+
+footer {
+    position: absolute;
+    height: 100px;
+    left:0;
+    bottom:0;
+    right:0;
+    background:var(--common-header-footer-color);
+  }
