@@ -1,105 +1,67 @@
-import { Card, Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import CardItem from '../components/CardItem';
 
-/* <header>Cycling Fans</header> props.title
-          <a href="https://dmobrienllc.github.io/p1-dress-my-ride/" target="_blank">
-            <img src="./assets/images/favicon-robot.png" alt="Let ride-bot() pimp your ride.." title="Let ride-bot() pimp your ride.."/>
-          </a>
-          <p>ride-bot()</p> */
-
 export default function Portfolio() {
+
+    const styles = {
+        container: {
+            paddingLeft: 0,
+            paddingRight: 0,
+            marginLeft: 2,
+            marginRight: 2
+        },
+        row: {
+            marginLeft: 0,
+            marginRight: 0
+        },
+        col: {
+            paddingLeft: 0,
+            paddingRight: 0,
+            marginLeft: 2,
+            marginRight: 2
+        }
+    };
+
     return (
         <div>
-            <h1>Portfolio</h1>
-            <p>Click on the links to view item or repository.</p>
+            <h2>Portfolio - Click on the links to view item or repository.</h2>
 
-            <Container>
-                <Row>
-                    <Col>
-                        <CardItem title="ride-bot()" 
-                                    text="Automated gear selection application for dedicated cyclists!"
-                                    appUrl="https://dmobrienllc.github.io/p1-dress-my-ride/" 
-                                    gitRepoUrl="https://github.com/dmobrienllc/hw2-dmobrienllc-portfolio"
-                                    imgSrc={process.env.PUBLIC_URL + '/images/favicon-robot.png'}
-                                    imgAltTitle="Let ride-bot() pimp your ride.." />
-                                    
+            <Container fluid style={styles.container}>
+                <Row style={styles.row}>
+                    <Col style={styles.col}>
+                        <CardItem title="ride-bot()"
+                            text="Automated gear selection application for cyclists!"
+                            appUrl="https://dmobrienllc.github.io/p1-dress-my-ride/"
+                            gitRepoUrl="https://github.com/dmobrienllc/p1-dress-my-ride"
+                            imgSrc={process.env.PUBLIC_URL + '/images/rock-n-roll-monkey.jpg'}
+                            imgAltTitle="Let ride-bot() pimp your ride.." />
                     </Col>
-                    <Col>
-                        <Card style={{ width: '18rem' }}>
-                            <Card.Body>
-                                <Card.Title>Card Two</Card.Title>
-                                <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-                                <Card.Text>
-                                    Some quick example text to build on the card title and make up the bulk of
-                                    the card's content.
-                                </Card.Text>
-                                <Card.Link href="#">Card Link</Card.Link>
-                                <Card.Link href="#">Another Link</Card.Link>
-                            </Card.Body>
-                        </Card>
+                    <Col style={styles.col}>
+                        <CardItem title="Note Taker"
+                            text="Simple But Effective Note-Taker Application!"
+                            appUrl="https://polar-dusk-69527.herokuapp.com/"
+                            gitRepoUrl="https://github.com/dmobrienllc/hw11-note-taker-app"
+                            imgSrc={process.env.PUBLIC_URL + '/images/Notes.jpeg'}
+                            imgAltTitle="Easy To Use Note-Taker Application" />
                     </Col>
-                    <Col>
-                        <Card style={{ width: '18rem' }}>
-                            <Card.Body>
-                                <Card.Title>Card Three</Card.Title>
-                                <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-                                <Card.Text>
-                                    Some quick example text to build on the card title and make up the bulk of
-                                    the card's content.
-                                </Card.Text>
-                                <Card.Link href="#">Card Link</Card.Link>
-                                <Card.Link href="#">Another Link</Card.Link>
-                            </Card.Body>
-                        </Card>
+                    <Col style={styles.col}>
+                        <CardItem title="Fitness Tracker"
+                            text="Track your workouts with Fitness Tracker!"
+                            appUrl="https://floating-reef-04864.herokuapp.com/"
+                            gitRepoUrl="https://github.com/dmobrienllc/hw18-workout-tracker"
+                            imgSrc={process.env.PUBLIC_URL + '/images/bike-builder.jpeg'}
+                            imgAltTitle="Fitness is important, keeping track of workouts helps!" />
                     </Col>
-                </Row>
-                <Row>
-                    <Col>
-                        <Card style={{ width: '18rem' }}>
-                            <Card.Body>
-                                <Card.Title>Card Four</Card.Title>
-                                <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-                                <Card.Text>
-                                    Some quick example text to build on the card title and make up the bulk of
-                                    the card's content.
-                                </Card.Text>
-                                <Card.Link href="#">Card Link</Card.Link>
-                                <Card.Link href="#">Another Link</Card.Link>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col>
-                        <Card style={{ width: '18rem' }}>
-                            <Card.Body>
-                                <Card.Title>Card Five</Card.Title>
-                                <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-                                <Card.Text>
-                                    Some quick example text to build on the card title and make up the bulk of
-                                    the card's content.
-                                </Card.Text>
-                                <Card.Link href="#">Card Link</Card.Link>
-                                <Card.Link href="#">Another Link</Card.Link>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col>
-                        <Card style={{ width: '18rem' }}>
-                            <Card.Body>
-                                <Card.Title>Card Six</Card.Title>
-                                <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-                                <Card.Text>
-                                    Some quick example text to build on the card title and make up the bulk of
-                                    the card's content.
-                                </Card.Text>
-                                <Card.Link href="#">Card Link</Card.Link>
-                                <Card.Link href="#">Another Link</Card.Link>
-                            </Card.Body>
-                        </Card>
+                    <Col style={styles.col}>
+                        <CardItem title="Tech Blog"
+                            text="Visit my technology blog site"
+                            appUrl="https://murmuring-fortress-02491.herokuapp.com/"
+                            gitRepoUrl="https://github.com/dmobrienllc/hw14-mvc-tech-blog"
+                            imgSrc={process.env.PUBLIC_URL + '/images/technologyblog.jpeg'}
+                            imgAltTitle="Let ride-bot() pimp your ride.." />
                     </Col>
                 </Row>
             </Container>
-
-
         </div>
     );
 }

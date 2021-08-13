@@ -4,14 +4,12 @@ import { Container } from 'react-bootstrap';
 
 const Header = () => {
     return (
-        <Container>
             <header>
                 <h1>David O'Brien</h1>
                 <p>
                     Offering professional web development services to discerning clients.
                 </p>
             </header>
-        </Container>
     )
 }
 
