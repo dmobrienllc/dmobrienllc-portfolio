@@ -5,10 +5,18 @@
   --card-common-padding:2px;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+html{
+  margin: 0;
+}
+
 body {
   font-family: Arial;
   margin: 0;
-  padding-bottom: 70px;
+  background-color: rgb(119, 157, 228);
 }
 
 header {

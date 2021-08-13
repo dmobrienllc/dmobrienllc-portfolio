@@ -1,5 +1,58 @@
 # hw20-react-portfolio
 
+## Table of Contents
+1. [General Info](#general-info)
+2. [Screenshot](#screenshot)
+3. [Technologies](#technologies)
+4. [Installation](#installation)
+5. [FAQs](#faqs)
+### General Info
+
+This portfolio was developed with React and deployed to GitHub pages using Node
+Package Manager and appropriate configuration settings in package.json.
+
+It contains links to four different project sites as well as their GitHub repositories,
+and also a contact form and blog page. 
+
+There are two branches in GitHub for this project:
+    
+    1. 'master' - contains all source code and artifacts
+    2. 'gh-pages' - production build assets only.
+
+### David OBrien's React Portfolio
+
+### Screenshot
+![Image text](./public/images/finished-screenshot.png)
+
+## Technologies
+***
+A list of technologies used within the project:
+  * HTML
+  * Bootstrap
+  * CSS
+  * Javascript
+  * React
+  * GitHub Pages
+
+
+## Installation
+***
+
+Link to github repository- https://github.com/dmobrienllc/dmobrienllc-portfolio
+
+Link to live site- https://dmobrienllc.github.io/dmobrienllc-portfolio/
+
+## FAQs
+***
+
+Q Is this application awesome?
+
+A Why yes it is!
+---
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+
+
+
 Being a web developer means being part of a community. You’ll need a place not only to share your projects while you're applying for jobs or working as a freelancer but also to share your work with other developers and collaborate on projects.
 
 Your task is to create a portfolio using your new React skills, which will help set you apart from other developers whose portfolios don’t use the latest technologies. 

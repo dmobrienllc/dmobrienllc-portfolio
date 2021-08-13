@@ -10,10 +10,10 @@ export default function Contact(){
             <div>
                 <p>For more information:</p>
                 <ul>
-                    <li><a href="mailto:dmobrienllc@gmail.com" target="_blank">Gmail</a></li>
-                    <li><a href="https://www.linkedin.com/in/dmobrienllc" target="_blank">LinkedIn</a></li>
-                    <li><a href="https://github.com/dmobrienllc" target="_blank">GitHub</a></li>
-                    <li><a href="https://stackoverflow.com/users/15960204/dmobrien8485" target="_blank">StackOverflow</a></li>
+                    <li><a href="mailto:dmobrienllc@gmail.com" target="_blank" rel="noreferrer">Gmail</a></li>
+                    <li><a href="https://www.linkedin.com/in/dmobrienllc" target="_blank" rel="noreferrer">LinkedIn</a></li>
+                    <li><a href="https://github.com/dmobrienllc" target="_blank" rel="noreferrer">GitHub</a></li>
+                    <li><a href="https://stackoverflow.com/users/15960204/dmobrien8485" target="_blank" rel="noreferrer">StackOverflow</a></li>
                 </ul>
             </div>
         </div>

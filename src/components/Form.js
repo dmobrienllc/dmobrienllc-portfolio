@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../css/formstyle.css';  //temp until bootstrap going
+//import (process.env.PUBLIC_URL + '/css/formstyle.css');  //temp until bootstrap going
 import { checkPassword, validateEmail } from '../utils/formhelpers';
 
 export default function Form() {

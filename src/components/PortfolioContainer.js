@@ -1,6 +1,5 @@
-import { React, useState, useEffect } from 'react';
+import { React, useState} from 'react';
 import Navigation from './Navigation';
-//import Header from './Header';
 import Home from '../pages/Home';
 import Portfolio from '../pages/Portfolio';
 import Blog from '../pages/Blog';
@@ -19,22 +18,16 @@ export default function PortfolioContainer() {
         switch (currentPage) {
             case 'Home':
                 return <Home />
-                break;
             case 'Portfolio':
                 return <Portfolio />
-                break;
             case 'Blog':
                 return <Blog />
-                break;
             case 'Contact':
                 return <Contact />
-                break;
             case 'Resume':
                 return <Resume />
-                break;
             default:
                 return <Home />
-                break;
         }
     }
 
