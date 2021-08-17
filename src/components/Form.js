@@ -52,8 +52,7 @@ export default function Form() {
   };
 
   return (
-    <div>
-      <p>Hello {userName}</p>
+    <div> 
       <form className="form">
         <input
           value={email}

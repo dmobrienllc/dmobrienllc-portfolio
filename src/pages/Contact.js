@@ -4,6 +4,7 @@ export default function Contact(){
     return (
         <div>
             <h1>Contact David O'Brien</h1>
+            <p>mobile: 651-253-0677</p>
             <div>
                 <Form />
             </div>
